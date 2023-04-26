@@ -9,7 +9,7 @@ class HelloWorld {
         System.out.println("Enter the number");
         int temp=sc.nextInt();
         
-        if(temp<=0)
+        if(temp<0)
         {
             break;
         }
