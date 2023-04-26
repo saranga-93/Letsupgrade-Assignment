@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int ans=0;
+        while(true)
+        {
+            
+        System.out.println("Enter the number");
+        int temp=sc.nextInt();
+        
+        if(temp<=0)
+        {
+            break;
+        }
+        ans=temp+ans;
+        
+            
+        }
+        
+        System.out.println("The answer is " +ans);
+    }
+}
